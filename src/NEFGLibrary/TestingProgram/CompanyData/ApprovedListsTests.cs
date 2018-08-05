@@ -99,9 +99,9 @@ namespace TestingProgram.CompanyData
         {
             var al = new ApprovedLists
             {
-                Assets = ApprovedListsTests.CreateAssetData().Assets,
-                Holdings = ApprovedListsTests.CreateHoldingData().Holdings,
-                Portfolios = ApprovedListsTests.CreatePorfolioData().Portfolios
+                Assets = CreateAssetData().Assets,
+                Holdings = CreateHoldingData().Holdings,
+                Portfolios = CreatePorfolioData().Portfolios
             };
             return al;
         }
