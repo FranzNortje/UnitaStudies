@@ -15,3 +15,12 @@ D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibr
 D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.AssemblyInfo.cs
 D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.dll
 D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.pdb
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.deps.json
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.dll
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.pdb
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.csprojAssemblyReference.cache
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.csproj.CoreCompileInputs.cache
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.AssemblyInfoInputs.cache
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.AssemblyInfo.cs
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.dll
+C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.pdb

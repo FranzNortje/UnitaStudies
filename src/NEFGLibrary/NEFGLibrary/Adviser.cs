@@ -19,15 +19,15 @@ namespace NEFGLibrary
         {
             var Errors = new List<ErrorResponse>();
             if (AdviserId == 0) {
-                Errors.Add( new ErrorResponse() { ErrorReason = "Adviser not qualified correctly" });
+                Errors.Add(ErrorResponse.GetError(ErrorCode.AdviserNotQualified));
             }
             if (string.IsNullOrEmpty(Email))
             {
-                Errors.Add(new ErrorResponse() { ErrorReason = "Adviser email address not defined" });
+                Errors.Add(ErrorResponse.GetError(ErrorCode.AdviserEmail));
             }
             if (string.IsNullOrEmpty(AdviserName))
             {
-                Errors.Add(new ErrorResponse() { ErrorReason = "Adviser name not defined" });
+                Errors.Add(ErrorResponse.GetError(ErrorCode.AdviserNotDefined));
             }
            
             return Errors;

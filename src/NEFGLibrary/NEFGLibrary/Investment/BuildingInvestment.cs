@@ -26,8 +26,8 @@ namespace NEFGLibrary
         {
             var Errors = new List<ErrorResponse>();
             if (InvestmentAmount < BusinessLogic.MinimumInvestmentAmount)
-            {
-                Errors.Add(new ErrorResponse() { ErrorReason = $"Investment amount has to more than {BusinessLogic.MinimumInvestmentAmount}." });
+            {                
+                Errors.Add(ErrorResponse.GetError(ErrorCode.AmountHastoBeMore, "Investment", BusinessLogic.MinimumInvestmentAmount));
             }
             return Errors;
         }
