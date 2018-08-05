@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\AmZStrt\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
+      "projectUniqueName": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "projectName": "NEFGLibrary",
-      "projectPath": "D:\\AmZStrt\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
+      "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "packagesPath": "C:\\Users\\FransNortje\\.nuget\\packages\\",
-      "outputPath": "D:\\AmZStrt\\NEFGLibrary\\NEFGLibrary\\obj\\",
+      "outputPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

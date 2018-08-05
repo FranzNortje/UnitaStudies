@@ -19,6 +19,20 @@ namespace NEFGLibrary.CompanyData
 
         }
 
+        public Asset GetAssetById(int id)
+        {
+            return Assets.Where(a => a.AssetId == id).First();
+        }
+
+        public Holding GetHoldingById(int id)
+        {
+            return Holdings.Where(h => h.HoldingId == id).First();
+        }
+        public Portfolio GetPortfolioById(int id)
+        {
+            return Portfolios.Where(p => p.PortfolioId == id).First();
+        }
+
         public Portfolio AddPortfolio(string portfolioName)
         {
             var newPortfolio = new Portfolio()
