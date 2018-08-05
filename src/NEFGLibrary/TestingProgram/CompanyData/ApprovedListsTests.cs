@@ -94,5 +94,16 @@ namespace TestingProgram.CompanyData
             al.AddAsset("Offshore Equity");
             return al;
         }
+
+        public static ApprovedLists CreateApprovedList()
+        {
+            var al = new ApprovedLists
+            {
+                Assets = ApprovedListsTests.CreateAssetData().Assets,
+                Holdings = ApprovedListsTests.CreateHoldingData().Holdings,
+                Portfolios = ApprovedListsTests.CreatePorfolioData().Portfolios
+            };
+            return al;
+        }
     }
 }
