@@ -7,3 +7,12 @@ D:\AmZStrt\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.pdb
 D:\AmZStrt\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.dll
 D:\AmZStrt\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.pdb
 D:\AmZStrt\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.csprojResolveAssemblyReference.cache
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.deps.json
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.dll
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\bin\Debug\netcoreapp2.0\NEFGLibrary.pdb
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.csprojResolveAssemblyReference.cache
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.csproj.CoreCompileInputs.cache
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.AssemblyInfoInputs.cache
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.AssemblyInfo.cs
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.dll
+D:\Git\UnitaStudies\src\NEFGLibrary\NEFGLibrary\obj\Debug\netcoreapp2.0\NEFGLibrary.pdb

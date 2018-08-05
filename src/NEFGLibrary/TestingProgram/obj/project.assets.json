@@ -5719,11 +5719,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\AmZStrt\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
+      "projectUniqueName": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
       "projectName": "TestingProgram",
-      "projectPath": "D:\\AmZStrt\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
+      "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
       "packagesPath": "C:\\Users\\FransNortje\\.nuget\\packages\\",
-      "outputPath": "D:\\AmZStrt\\NEFGLibrary\\TestingProgram\\obj\\",
+      "outputPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5742,8 +5742,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\AmZStrt\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj": {
-              "projectPath": "D:\\AmZStrt\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj"
+            "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj": {
+              "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj"
             }
           }
         }

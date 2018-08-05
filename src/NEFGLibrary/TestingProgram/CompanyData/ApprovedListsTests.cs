@@ -13,6 +13,15 @@ namespace TestingProgram.CompanyData
         [TestMethod]
         public void populatePortfolio()
         {
+            ApprovedLists al = CreatePorfolioData();
+
+            var expectedPortofolioCount = 7;
+
+            Assert.AreEqual(expectedPortofolioCount, al.Portfolios.Count());
+        }
+
+        public static ApprovedLists CreatePorfolioData()
+        {
             ApprovedLists al = new ApprovedLists();
 
             al.AddPortfolio("Institutional Cash Plus Account");
@@ -22,14 +31,21 @@ namespace TestingProgram.CompanyData
             al.AddPortfolio("N-e-FG Stable Portfolio");
             al.AddPortfolio("N-e-FG Moderate Portfolio");
             al.AddPortfolio("N-e-FG Aggressive Portfolio");
-
-            var expectedPortofolioCount = 7;
-
-            Assert.AreEqual(expectedPortofolioCount, al.Portfolios.Count());
+            return al;
         }
 
         [TestMethod]
         public void populateHoldings()
+        {
+            ApprovedLists al = CreateHoldingData();
+
+            var expectedHoldingsCount = 16;
+
+            Assert.AreEqual(expectedHoldingsCount, al.Holdings.Count());
+
+        }
+
+        public static ApprovedLists CreateHoldingData()
         {
             ApprovedLists al = new ApprovedLists();
             al.AddHolding("PSG Income E");
@@ -48,15 +64,22 @@ namespace TestingProgram.CompanyData
             al.AddHolding("Investec Absolute Balanced B");
             al.AddHolding("Investec Opportunity R");
             al.AddHolding("Private Share Portfolio");
-
-            var expectedHoldingsCount = 16;
-
-            Assert.AreEqual(expectedHoldingsCount, al.Holdings.Count());
-
+            return al;
         }
 
         [TestMethod]
         public void populateAssets()
+        {
+            ApprovedLists al = CreateAssetData();
+
+            var expectedAssetCount = 10;
+
+            Assert.AreEqual(expectedAssetCount, al.Assets.Count());
+
+
+        }
+
+        public static ApprovedLists CreateAssetData()
         {
             ApprovedLists al = new ApprovedLists();
             al.AddAsset("Domestic Cash");
@@ -69,13 +92,7 @@ namespace TestingProgram.CompanyData
             al.AddAsset("Offshore Other");
             al.AddAsset("Domestic Equity");
             al.AddAsset("Offshore Equity");
-
-            var expectedAssetCount = 10;
-
-            Assert.AreEqual(expectedAssetCount, al.Assets.Count());
-
-
+            return al;
         }
-
     }
 }
