@@ -17,15 +17,15 @@ namespace NEFGLibrary
             var Errors = new List<ErrorResponse>();
             if (Title == null)
             {
-                Errors.Add(new ErrorResponse() { ErrorReason = "Investor title not qualified correctly" });
+                Errors.Add(ErrorResponse.GetError(ErrorCode.TitleNotQualified));
             } 
             if (string.IsNullOrEmpty(Initials))
             {
-                Errors.Add(new ErrorResponse() { ErrorReason = "Investor initials not defined" });
+                Errors.Add(ErrorResponse.GetError(ErrorCode.InitialsNotDefined));
             }
             if (string.IsNullOrEmpty(LastName))
             {
-                Errors.Add(new ErrorResponse() { ErrorReason = "Investor lastname not defined" });
+                Errors.Add(ErrorResponse.GetError(ErrorCode.LastnameNotBlank));
             }
             //TODO : Date Of Birth Validation
 

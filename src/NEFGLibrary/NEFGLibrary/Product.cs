@@ -18,15 +18,15 @@ namespace NEFGLibrary
             var errors = new List<ErrorResponse>();
             if (ProductId == 0)
             {
-                errors.Add(new ErrorResponse() { ErrorReason = "Requires Product ID" });                
+                errors.Add(ErrorResponse.GetError(ErrorCode.RequiresProductId));                
             }
             if (string.IsNullOrEmpty(ProductName))
             {
-                errors.Add(new ErrorResponse() { ErrorReason = "Requires Product name" });
+                errors.Add(ErrorResponse.GetError(ErrorCode.RequiresProductName));
             }
             if (string.IsNullOrEmpty(ProductQuotationCode))
             {
-                errors.Add(new ErrorResponse() { ErrorReason = "Requires Product Quotation Code" });
+                errors.Add(ErrorResponse.GetError(ErrorCode.RequiresQuotationCode));
             }
             return errors;
         }
