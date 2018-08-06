@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NEFGLibrary;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
-namespace TestingProgram
-{
-    [TestClass]
-    class QuoteOutputTest
-    {
-        [TestMethod]
-        public void CreateNameTest()
-        {
-
-        }
+namespace TestingProgram {
+  [TestClass]
+  internal class QuoteOutputTest {
+    [TestMethod]
+    public void CreateNameTest() {
     }
+  }
 }

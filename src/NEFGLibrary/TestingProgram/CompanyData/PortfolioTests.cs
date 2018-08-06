@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestingProgram.CompanyData
-{
-    public class PortfolioTests
-    {
-    }
+namespace TestingProgram.CompanyData {
+  [TestClass]
+  public class PortfolioTests {
+  }
 }

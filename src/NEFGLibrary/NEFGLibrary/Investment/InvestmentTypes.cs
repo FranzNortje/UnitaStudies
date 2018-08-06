@@ -1,10 +1,9 @@
-﻿namespace NEFGLibrary
+﻿namespace NEFGLibrary.Investment
 {
-    public enum InvestmentTypes
-    {
-        Single,
-        Monthly,
-        WithDrawel
-    }
-
+  public enum InvestmentTypes
+  {
+    Single,
+    Monthly,
+    WithDrawel
+  }
 }

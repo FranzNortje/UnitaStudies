@@ -1,17 +1,22 @@
-﻿using NEFGLibrary.CompanyData;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using NEFGLibrary.Helper;
+using NEFGLibrary.Investment.Interfaces;
 
-namespace NEFGLibrary
+namespace NEFGLibrary.CompanyData
 {
-    public class MorningStar
+  public class MorningStar : IValidator
+  {
+    public int MorningStarVersion { get; set; }
+    public DateTime DirectDataDateAssetAllocation { get; set; }
+    public DateTime DirectDataDatePerformances { get; set; }
+    public DateTime DirectDataDateHoldings { get; set; }
+    public List<PortfolioHolding> PortfolioHoldings { get; set; }
+    public List<PortfolioAsset> PortfolioAssets { get; set; }
+
+    public List<ErrorResponse> CheckValidation()
     {
-        public int MorningStarVersion { get; set; }
-        public DateTime DirectDataDateAssetAllocation { get; set; }
-        public DateTime DirectDataDatePerformances { get; set; }
-        public DateTime DirectDataDateHoldings { get; set; }
-        public List<PortfolioHolding> PortfolioHoldings { get; set; }
-        public List<PortfolioAsset> PortfolioAssets { get; set; }
+      return new List<ErrorResponse>();
     }
+  }
 }

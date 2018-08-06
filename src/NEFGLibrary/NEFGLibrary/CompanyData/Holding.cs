@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace NEFGLibrary
+﻿namespace NEFGLibrary.CompanyData
 {
-    public class Holding
-    {
-        public int HoldingId { get; set; }
-        public string HoldingName { get; set; }
-           
-
-    }
+  public class Holding
+  {
+    public int HoldingId { get; set; }
+    public string HoldingName { get; set; }
+  }
 }
