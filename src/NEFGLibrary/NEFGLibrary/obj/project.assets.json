@@ -702,36 +702,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leonn\\.nuget\\packages\\": {},
+    "C:\\Users\\lnort\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
+      "projectUniqueName": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "projectName": "NEFGLibrary",
-      "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
-      "packagesPath": "C:\\Users\\leonn\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\obj\\",
+      "projectPath": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
+      "packagesPath": "C:\\Users\\lnort\\.nuget\\packages\\",
+      "outputPath": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\leonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lnort\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nugetlib": {},
-        "http://nugetlib/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -751,7 +745,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
