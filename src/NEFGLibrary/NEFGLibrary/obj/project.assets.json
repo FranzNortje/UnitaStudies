@@ -702,7 +702,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leonn\\.nuget\\packages\\": {},
+    "C:\\Users\\FransNortje\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -714,24 +714,21 @@
       "projectUniqueName": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "projectName": "NEFGLibrary",
       "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
-      "packagesPath": "C:\\Users\\leonn\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\FransNortje\\.nuget\\packages\\",
       "outputPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\leonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FransNortje\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nugetlib": {},
-        "http://nugetlib/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -756,7 +753,7 @@
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           }
         },
         "imports": [
