@@ -1,18 +1,16 @@
-﻿using NEFGLibrary.Investment.Interfaces;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace NEFGLibrary
+namespace NEFGLibrary.Investment.Interfaces
 {
-    public interface IInvestment : IValidator
-    {
-        InvestmentTypes InvestmentType { get; set; }
-        decimal InvestmentAmount { get; set; }
-        decimal InvestmentAmountAfterInitialFinancialAdviserFee { get; set; }
-        decimal EscalationRatePerAnnum { get; set; }
-        List<PortfolioInvestmentAllocation> InvestmentPortfolios { get; set; }
+  public interface IInvestment : IValidator
+  {
+    InvestmentTypes InvestmentType { get; set; }
+    decimal InvestmentAmount { get; set; }
+    decimal InvestmentAmountAfterInitialFinancialAdviserFee { get; set; }
+    decimal EscalationRatePerAnnum { get; set; }
+    List<PortfolioInvestmentAllocation> InvestmentPortfolios { get; set; }
 
-        void AddPortfolioAllocation(PortfolioInvestmentAllocation portfolioInvestmentAllocation);
-        bool IsPortfolioAllocationComplete();
-    }
-
+    void AddPortfolioAllocation(PortfolioInvestmentAllocation portfolioInvestmentAllocation);
+    bool IsPortfolioAllocationComplete();
+  }
 }

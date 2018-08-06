@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using NEFGLibrary.Helper;
 
 namespace NEFGLibrary.Investment.Interfaces
 {
-    public interface IValidator
-    {
-        IEnumerable<ErrorResponse> CheckValidation();
-    }
+  public interface IValidator
+  {
+    List<ErrorResponse> CheckValidation();
+  }
 }

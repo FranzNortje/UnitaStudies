@@ -1,16 +1,7 @@
-﻿using NEFGLibrary;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NEFGLibrary.CompanyData;
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestingProgram.CompanyData
-{
-    [TestClass]
-    public class PortfolioTests
-    {
-
-    }
+namespace TestingProgram.CompanyData {
+  [TestClass]
+  public class PortfolioTests {
+  }
 }
