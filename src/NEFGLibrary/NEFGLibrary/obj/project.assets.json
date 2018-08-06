@@ -707,6 +707,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "projectName": "NEFGLibrary",
@@ -748,7 +751,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
