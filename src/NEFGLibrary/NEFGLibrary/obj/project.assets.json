@@ -702,7 +702,11 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\lnort\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\FransNortje\\.nuget\\packages\\": {},
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -710,15 +714,25 @@
     "restore": {
       "projectUniqueName": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "projectName": "NEFGLibrary",
+<<<<<<< HEAD
       "projectPath": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
       "packagesPath": "C:\\Users\\lnort\\.nuget\\packages\\",
       "outputPath": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\obj\\",
+=======
+      "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\NEFGLibrary.csproj",
+      "packagesPath": "C:\\Users\\FransNortje\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\NEFGLibrary\\obj\\",
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\lnort\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\FransNortje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -750,7 +764,7 @@
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           }
         },
         "imports": [

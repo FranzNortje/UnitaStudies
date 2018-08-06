@@ -46,5 +46,4 @@ C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcore
 C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcoreapp2.0\TestingProgram.csproj.CopyComplete
 C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcoreapp2.0\TestingProgram.dll
 C:\git\LeonFNortje\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcoreapp2.0\TestingProgram.pdb
-D:\Git\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcoreapp2.0\TestingProgram.csprojAssemblyReference.cache
-D:\Git\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcoreapp2.0\TestingProgram.csproj.CopyComplete
+D:\Git\UnitaStudies\src\NEFGLibrary\TestingProgram\obj\Debug\netcoreapp2.0\TestingProgram.csprojResolveAssemblyReference.cache

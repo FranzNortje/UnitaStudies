@@ -35,7 +35,17 @@ namespace TestingProgram.CompanyData {
       Assert.AreEqual(expectedHoldingsCount, al.Holdings.Count);
     }
 
-    public static ApprovedLists CreateHoldingData() {
+        [TestMethod]
+        public void PopulateGrowth()
+        {
+            var al = CreateGrowthData();
+
+            var expectedHoldingsCount = 3;
+
+            Assert.AreEqual(expectedHoldingsCount, al.GrowthdataInfo.Count);
+        }
+
+        public static ApprovedLists CreateHoldingData() {
       var al = new ApprovedLists();
       al.AddHolding("PSG Income E");
       al.AddHolding("Coronation Strategic Income P");
@@ -79,6 +89,15 @@ namespace TestingProgram.CompanyData {
       al.AddAsset("Offshore Equity");
       return al;
     }
+
+    public static ApprovedLists CreateGrowthData()
+        {
+            var al = new ApprovedLists();
+            al.AddGrowthData(Growth.Low);
+            al.AddGrowthData(Growth.Target);
+            al.AddGrowthData(Growth.High);
+            return al;
+        }
 
     public static ApprovedLists CreateApprovedList() {
       var al = new ApprovedLists {

@@ -1923,7 +1923,11 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
+<<<<<<< HEAD
       "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+=======
+      "sha512": "hlKJItobCOS85lx4/LdSNqaKrB7yyf0P4hU8JDlJwOpgcoT7ad4RvrefIE6MWmGwe7BEJYJIs/KGSJxL0Q+cVQ==",
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
@@ -2528,7 +2532,11 @@
       ]
     },
     "runtime.native.System/4.3.0": {
+<<<<<<< HEAD
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
+=======
+      "sha512": "hvcRPRu2cKekWmb285wuaEkri8/rHN4IHsFdE729QnQf3d7CW4jfh0h7l7xplM5Q15aGbA1Gx4PTXydC+2WNOw==",
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
@@ -5452,7 +5460,11 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\lnort\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\FransNortje\\.nuget\\packages\\": {},
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5460,15 +5472,25 @@
     "restore": {
       "projectUniqueName": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
       "projectName": "TestingProgram",
+<<<<<<< HEAD
       "projectPath": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
       "packagesPath": "C:\\Users\\lnort\\.nuget\\packages\\",
       "outputPath": "C:\\git\\LeonFNortje\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\obj\\",
+=======
+      "projectPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\TestingProgram.csproj",
+      "packagesPath": "C:\\Users\\FransNortje\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\UnitaStudies\\src\\NEFGLibrary\\TestingProgram\\obj\\",
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\lnort\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\FransNortje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 21268eb379d5a4d86624e747d008c02413c6ffe5
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
