@@ -13,7 +13,7 @@ namespace NEFGLibrary.CompanyData
 
     public enum Growth
     {
-        Low = 0,
+        Low = 1,
         Target,
         High
     }

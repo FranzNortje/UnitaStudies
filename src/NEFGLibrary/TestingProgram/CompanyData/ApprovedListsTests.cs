@@ -42,7 +42,7 @@ namespace TestingProgram.CompanyData {
 
             var expectedHoldingsCount = 3;
 
-            Assert.AreEqual(expectedHoldingsCount, al.GrowthdataInfo.Count);
+            Assert.AreEqual(expectedHoldingsCount, al.GrowthDataInfo.Count);
         }
 
         public static ApprovedLists CreateHoldingData() {
@@ -103,7 +103,8 @@ namespace TestingProgram.CompanyData {
       var al = new ApprovedLists {
         Assets = CreateAssetData().Assets,
         Holdings = CreateHoldingData().Holdings,
-        Portfolios = CreatePorfolioData().Portfolios
+        Portfolios = CreatePorfolioData().Portfolios,
+        GrowthDataInfo = CreateGrowthData().GrowthDataInfo 
       };
       return al;
     }

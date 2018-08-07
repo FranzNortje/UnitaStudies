@@ -13,8 +13,9 @@ namespace NEFGLibrary.CompanyData
     public DateTime DirectDataDateHoldings { get; set; }
     public List<PortfolioHolding> PortfolioHoldings { get; set; }
     public List<PortfolioAsset> PortfolioAssets { get; set; }
+    public List<PortfolioGrowthData> PortfolioGrowthDataInfo { get; set; }
 
-    public List<ErrorResponse> CheckValidation()
+        public List<ErrorResponse> CheckValidation()
     {
       return new List<ErrorResponse>();
     }

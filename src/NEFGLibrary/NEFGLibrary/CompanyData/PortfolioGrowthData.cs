@@ -11,13 +11,14 @@ namespace NEFGLibrary.CompanyData
         public GrowthData GrowthData { get; set; }
         public decimal MonthBaseValue { get; set; }
 
-        public static PortfolioGrowthData CreatePortfolioGrowthData(ApprovedLists al, int portfolioId, int growthId)
+        public static PortfolioGrowthData CreatePortfolioGrowthData(ApprovedLists al, int portfolioId, int growthId,decimal monthBaseValue)
         {
             var portfolioGrowthData = new PortfolioGrowthData
             {
                 GrowthdataId = $"P{portfolioId}:G{growthId}",
                 Portfolio = al.GetPortfolioById(portfolioId),
-                GrowthData = al.GetGrowthDataById(growthId)
+                GrowthData = al.GetGrowthDataById(growthId),
+                MonthBaseValue = monthBaseValue
             };
             return portfolioGrowthData;
         }
