@@ -10,18 +10,18 @@ namespace NEFGLibrary.CompanyData
       Portfolios = new List<Portfolio>();
       Holdings = new List<Holding>();
       Assets = new List<Asset>();
-      GrowthdataInfo = new List<GrowthData>();
+      GrowthDataInfo = new List<GrowthData>();
 
     }
 
     public List<Portfolio> Portfolios { get; set; }
     public List<Holding> Holdings { get; set; }
     public List<Asset> Assets { get; set; }
-    public List<GrowthData> GrowthdataInfo { get; set; }
+    public List<GrowthData> GrowthDataInfo { get; set; }
 
     public GrowthData GetGrowthDataById(int id)
     {
-            return GrowthdataInfo.First(g => g.GrowthDataId == id);
+            return GrowthDataInfo.First(g => g.GrowthDataId == id);
 
     }
 
@@ -44,10 +44,10 @@ namespace NEFGLibrary.CompanyData
         {
             var newGrowthData = new GrowthData
             {
-                GrowthDataId = GrowthdataInfo.Count + 1,
+                GrowthDataId = GrowthDataInfo.Count + 1,
                 Growth = growth
             };
-            GrowthdataInfo.Add(newGrowthData);
+            GrowthDataInfo.Add(newGrowthData);
             return newGrowthData;
         }
 
