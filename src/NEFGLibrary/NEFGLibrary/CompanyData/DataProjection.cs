@@ -11,7 +11,7 @@ namespace NEFGLibrary.CompanyData
         public static decimal ModifyGrowthPercentage(int portfolioId,int growthDataId,MorningStar ms)
         {
             //Growth Perc Value
-            var value = MorningStar.GetSpecificGrowthDataValue(portfolioId, growthDataId, ms);
+            var value = ms.GetSpecificGrowthDataValue(portfolioId, growthDataId);
             return (value / 12) - (DecimalPower((1 + value),(value / 12)) - 1) + value;
             // ((0.065)/12)-(POWER((1+(0.065)),(1/12))-1)+(0.065)
         }

@@ -8,7 +8,7 @@ namespace NEFGLibrary.CompanyData
 {
   public class MorningStar : IValidator
   {
-      
+
 
     public int MorningStarVersion { get; set; }
     public DateTime DirectDataDateAssetAllocation { get; set; }
@@ -18,16 +18,21 @@ namespace NEFGLibrary.CompanyData
     public List<PortfolioAsset> PortfolioAssets { get; set; }
     public List<PortfolioGrowthData> PortfolioGrowthDataInfo { get; set; }
 
-        public List<ErrorResponse> CheckValidation()
+    public List<ErrorResponse> CheckValidation()
     {
       return new List<ErrorResponse>();
     }
 
-
-        public static decimal GetSpecificGrowthDataValue(int portfolioId, int growthDataId, MorningStar ms)
-        {
-            string check = $"P{portfolioId}:G{growthDataId}";
-            return ms.PortfolioGrowthDataInfo.First(pg => pg.GrowthdataId == check).MonthBaseValue;
-        }
+    public decimal GetSpecificGrowthDataValue(int portfolioId, int growthDataId)
+    {
+      string check = $"P{portfolioId}:G{growthDataId}";
+      return PortfolioGrowthDataInfo.First(pg => pg.GrowthdataId == check).MonthBaseValue;
     }
+
+    public static decimal GetSpecificGrowthDataValue(int portfolioId, int growthDataId, MorningStar ms)
+    {
+      string check = $"P{portfolioId}:G{growthDataId}";
+      return ms.PortfolioGrowthDataInfo.First(pg => pg.GrowthdataId == check).MonthBaseValue;
+    }
+  }
 }
