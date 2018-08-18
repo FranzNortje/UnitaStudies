@@ -361,5 +361,7 @@ namespace TestingProgram.CompanyData {
 
       Assert.AreEqual(expectedAssetCount, ms.PortfolioAssets.Count);
     }
-  }
+
+      
+    }
 }

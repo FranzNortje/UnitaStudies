@@ -9,6 +9,6 @@ namespace TestingProgram.CompanyData
     [TestClass]
     class ProjectionTests
     {
-        
+       
     }
 }
