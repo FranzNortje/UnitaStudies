@@ -45,7 +45,7 @@ namespace TestingProgram.CompanyData {
             };
             //Assign
             var checkValue = 0.065m;
-
+            
             //Assert
             Assert.AreEqual(checkValue, MorningStar.GetSpecificGrowthDataValue(portfolioId, growthDataId, ms));
         }
